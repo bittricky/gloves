@@ -19,7 +19,7 @@ const Rope: FC<RopeProps> = ({ side }) => {
   return (
     <div className={`${baseClasses} ${sideClasses[side]} rounded-t-[20%]`}>
       <div
-        className={`absolute w-[3px] h-[200px] bg-yellow-500 top-[1px] ${afterClasses[side]} rounded-t-[20%]`}
+        className={`absolute w-[3px] h-[200px] bg-yellow-400 top-[1px] ${afterClasses[side]} rounded-t-[20%]`}
       />
     </div>
   );

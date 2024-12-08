@@ -1,6 +1,7 @@
 import { FC } from "react";
 import Hook from "./Hook";
 import Rope from "./Rope";
+import Glove from "./Glove";
 
 const Wall: FC = () => {
   return (
@@ -10,7 +11,8 @@ const Wall: FC = () => {
       <Rope side="left" />
       <Rope side="right" />
 
-      {/* TODO Glove Component */}
+      <Glove side="left" />
+      <Glove side="right" />
     </div>
   );
 };
