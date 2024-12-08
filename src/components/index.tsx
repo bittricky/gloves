@@ -1,2 +1,2 @@
 export { default as Wall } from "./Wall";
-// TODO: add other imports
+export { default as Hook } from "./Hook";

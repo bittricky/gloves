@@ -1,9 +1,10 @@
 import { FC } from "react";
+import Hook from "./Hook";
 
 const Wall: FC = () => {
   return (
     <div className="absolute top-1/2 left-1/2">
-      {/* TODO Hook Component */}
+      <Hook />
       {/* TODO Rope Component */}
       {/* TODO Glove Component */}
     </div>
