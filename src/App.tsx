@@ -1,8 +1,8 @@
 function App() {
   return (
-    <>
-      <div>The Gloves</div>
-    </>
+    <div className="min-h-screen bg-purple-700">
+      <Wall />
+    </div>
   );
 }
 
